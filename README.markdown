@@ -8,7 +8,7 @@ excellent `markdown2pdf` utility.
 
 The goal of this template is to use less paper. I did this by reducing margins
 to acceptable limits. The printed paper has enough margins to allow for spiral
-binding using the standard multihole punch, even when printed on both sides.
+binding using the standard multihole punch, when printed on both sides.
 
 The font size is 10pt, which is big enough for me to read.
 
