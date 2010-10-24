@@ -16,5 +16,5 @@ I made this template because I don't like to waste paper, but I do love reading
 long documents on paper.
 
 To see this  template in action, run `markdown2pdf/bstringlib.sh` to download
-the documentation for the [bstrlib](bstring.sourceforge.net) C library, convert it to suitable markdown
+the documentation for the [bstrlib](http://bstring.sourceforge.net) C library, convert it to suitable markdown
 format and in turn convert into a print ready PDF using `markdown2pdf`.
