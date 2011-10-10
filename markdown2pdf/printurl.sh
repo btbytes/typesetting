@@ -25,6 +25,6 @@ case "$extension" in
             
 esac
 
-pandoc $fname -f $format -t context --template=/home/pradeep/src/typesetting/markdown2pdf/lesspaper-ltr.tex > ${filename}.tex
+pandoc $fname -f $format -t context --template=$HOME/src/typesetting/markdown2pdf/lesspaper-ltr.tex > ${filename}.tex
 texexec --pdf --silent --purgeall ${filename}.tex >> /dev/null
 echo "Output: ${filename}.pdf"
