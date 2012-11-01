@@ -1,0 +1,35 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[english]{isodate}
+\usepackage[parfill]{parskip}
+\usepackage{fullpage}
+\usepackage[svgnames]{xcolor}% provides colors for text
+
+
+\makeatletter% since there's an at-sign (@) in the command name
+\renewcommand{\@maketitle}{%
+    \parskip\baselineskip% skip a line between paragraphs in the title block
+    \parindent=0pt% don't indent paragraphs in the title block
+    {\textbf\@title}\par
+    \textmd{\@author}\\
+    \textsc{\@date} % remove the percent sign at the beginning of this line if you want the date printed
+}
+\makeatother% resets the meaning of the at-sign (@)
+
+
+
+\begin{document}
+
+\title {Replace Me}
+\date{November 1, 2012}
+\author{Pradeep Gowda}
+
+\maketitle
+
+Hello world!
+
+
+\end{document}
+
+
