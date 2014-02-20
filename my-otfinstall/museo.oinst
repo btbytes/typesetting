@@ -1,0 +1,12 @@
+vendor      "exljbris"
+collection  "museo"
+
+# 'sans' or 'serif'
+fontclass   "serif"
+
+# Allowed variants are 'default', 'osf'
+variants    %w(default osf)
+
+# Supported faces are 'regular' 'bold' 'italic' and 'bolditalic'
+regular "Museo-300.otf"
+#regular "exljbris - Museo-700.otf"

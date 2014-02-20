@@ -1,0 +1,14 @@
+vendor      "tex-gyre"
+collection  "termes"
+
+# 'sans' or 'serif'
+fontclass   "serif"
+
+# Allowed variants are 'default', 'osf'
+variants    %w(default osf)
+
+# Supported faces are 'regular' 'bold' 'italic' and 'bolditalic'
+regular     "texgyretermes-regular.otf"
+bold        "texgyretermes-bold.otf"
+italic      "texgyretermes-italic.otf"
+bolditalic  "texgyretermes-bolditalic.otf"

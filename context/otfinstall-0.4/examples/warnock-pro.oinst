@@ -1,0 +1,16 @@
+
+
+vendor      "adobe"
+collection  "warnock"
+
+# 'sans' or 'serif'
+fontclass   "serif"
+
+# Allowed variants are 'default', 'osf'
+variants    %w(default osf)
+
+# Supported faces are 'regular' 'bold' 'italic' and 'bolditalic'
+regular     "WarnockPro-Regular.otf"
+bold        "WarnockPro-Semibold.otf"
+italic      "WarnockPro-It.otf"
+bolditalic  "WarnockPro-SemiboldIt.otf"

@@ -1,0 +1,14 @@
+vendor      "adobe"
+collection  "garamond"
+
+# 'sans' or 'serif'
+fontclass   "serif"
+
+# Allowed variants are 'default', 'osf'
+variants    %w(default osf)
+
+# Supported faces are 'regular' 'bold' 'italic' and 'bolditalic'
+regular     "GaramondPremrPro.otf"
+bold        "GaramondPremrPro-Bd.otf"
+italic      "GaramondPremrPro-It.otf"
+bolditalic  "GaramondPremrPro-BdIt.otf"
