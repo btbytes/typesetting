@@ -1,9 +1,15 @@
+% Business Card that can be printed on Avery 5371
+% Pradeep Gowda
+% March 14, 2014
+% To Compile: mtxrun  --script context --synctec pgowda-enth.tex
+% Based on http://wiki.contextgarden.net/BusinessCard
+
 \definepapersize[BC][width=88.9mm,height=50.8mm]
 \definelayer[blocks][width=88.9mm,height=50.8mm]
 \setuppapersize[BC][letter]
 \setuplayout[nx=2,ny=5,dx=0mm,dy=0pt]
 \setuplayout[location=middle,width=fit,height=fit]
-\setuppagenumbering[location=,state=stop] 
+\setuppagenumbering[location=,state=stop]
 \usetypescript[palatino][texnansi]
 \setupbodyfont[palatino]
   %
@@ -17,7 +23,7 @@
 \setupcolors
  [state=start]
  \setupbodyfont[postscript, 9pt]
-  
+
 \setupbackgrounds[page][background=blocks]
 
 \starttext
@@ -41,18 +47,18 @@
     \startbuffer
       \vbox{%
       \startlines
-      \ss 
+      \ss
       {\bf ENTHENERGY LLC}
       \vskip-2pt 9365 Counselors Row, Ste 120
       \vskip-2pt Indianapolis, IN 46240
 
-      \vskip 2pt www.energyplanit.com 
-      \vskip-2pt M: 317.489.2272      
+      \vskip 2pt www.energyplanit.com
+      \vskip-2pt M: 317.489.2272
       \stoplines}%
     \stopbuffer
     \setlayer[blocks][voffset=1.8cm,hoffset=4.35cm]{\getbuffer}
     %\setlayer[blocks][hoffset=2cm, voffset=4.2cm]{\ss www.energyplanit.com}
 
-    
+
   \stopstandardmakeup
 \stoptext
